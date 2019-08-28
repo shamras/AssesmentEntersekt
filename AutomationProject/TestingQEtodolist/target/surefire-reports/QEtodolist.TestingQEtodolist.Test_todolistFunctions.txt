@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: QEtodolist.TestingQEtodolist.Test_todolistFunctions
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.005 sec
