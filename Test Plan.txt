@@ -1,0 +1,160 @@
+
+
+Test Plan for QETodolist application
+
+1. Introduction
+This application will allow all QA's to be able to capture their necessary actions or todo list when testing any application.
+
+	1.1	Objective and tasks
+	-This test plan is to identify all areas of testing and project requirements.
+	-This test plan is to communicate the test strategy to the necessary stake holders or product owners.
+	-This test plan is to identify all risks and dependencies.
+
+2. Scope
+ The scope of this feature would allow QE analysts a better way to capture or create test cases or scenarios by adding todo items, making it easier to understand what needs to happen when testing an application. 
+ Also scope at this stage is not fully defined as this is a pilot project. 
+
+3. Testing strategy
+ The test strategy for QETodolist will consists of various different types of testing to accommodate all in-scope project requirements and use case scenarios.  
+
+	3.1 Unit Testing (Alpha testing)
+	Unit Testing will be done at a code level, they currently will be conducted by the development team. The purpose of unit testing reduces defects and verifies the accuracy of each unit of the code. 
+	3.2 Systems Test
+	The system test will focus on the overall functionality of the feature as per the specification document. This type of testing will be considered complete when the functionality is as expected.
+	3.3 Performance and Stress Testing
+	Ensure the software response in due time according to software development life cycle standards (SDLC). During these tests, response times will be measured under heavy stress and/or volume.
+	3.4 User Acceptance Testing
+	In this case the User acceptance testing will be done by the QE team as this product would be for their working environment.
+	3.5 Batch Testing
+	Not required for this project. 
+	3.6 Automated Regression Testing
+	A suite of automated tests will be developed to test the basic functionality of the QETodolist functionality and perform regression testing on areas of the systems that previously had critical/major defects. The tool will also assist us by executing user scenarios thereby emulating several users.
+	3.7 Beta Testing
+	QEtodolist will be rolled out to specific users to test in a preview environment to allow for user feedback. 
+
+4. Environment requirements
+A development-box has already been set-up, as a QE analyst they would require the project branch to check out the code. Once the code is hosted on their local environments, they will be able to test using data.
+
+5. Test Schedule (to update with correct dates)
+	•	Ramp up / System familiarization         TBC
+	•	System Test                              TBC
+	•	Beta Test                                TBC
+	•	User Acceptance Test                     TBC
+	
+6. Control Procedures (if in agile environment)
+	6.1 Reviews
+	The project team will perform reviews for each Phase. (i.e. Requirements Review, Design Review, Code Review, Test Plan Review, Test Case Review and Final Test Summary Review). A meeting notice, with related documents, will be emailed to each participant.
+	
+	6.2 Bug Review meetings
+	Regular Daily meeting will be held to discuss reported defects. The development department will provide status/updates on all defects reported and the test department will provide addition defect information if needed. All member of the project team will participate.
+	
+	6.3 Change Request
+	Any required change will follow the right change procedure – if the company has a change request procedure 
+	
+	6.4 Defect Reporting
+	When defects are found, testers will complete a defect report on the defect tracking system. The defect tracking Systems is accessible by testers, developers & all members of the project team. When a defect has been fixed or more information is needed, the developer will change the status of the defect to indicate the current state. Once a defect is verified as FIXED and RE-TESTED by the team, testers will close the defect report.
+
+7. Feature To Be Tested
+The following is a list of high-level functionality test that will be tested using the below test cases: 
+	“The link to the project test cases will go here”
+	High level scenarios:
+	•	Application must be able to deploy in docker
+	•	Multiple users should be able to view the shared public todo list (no live updates, only on refresh)
+	•	Todo list items should persist after browser refresh
+	•	Todo items should not be able to be empty
+	•	Should be able to add todo items
+	•	Should be able to delete todo items
+	•	Should be able to edit todo items
+	
+	7.1 QE todolist or form
+	•	Form functionality and interaction
+	•	Able to create data set
+	•	Able to delete a data set
+	
+	7.5 Regression Testing
+	•	The below test cases will be used to conduct regression tests,
+	•	Regression test will be done on flash alerts and source collection to ensure these features still work as is. 
+	“The link to the regression test pack will go here”
+	*To note only if needed as per project or feature 
+	
+8. Feature Not to Be Tested
+Thing that are not included in QE todolist will not be tested.
+
+9. Resources and Responsibilities. 
+	9.1 The test team will consist of:
+	•	A Product Owner
+	•	One Tester
+	•	The team in agile the entire team does testing if needed.
+	9.2 Responsibilities
+    
+	
+	Product Owner ---Responsible for Project schedules and the overall success of the project.
+ 	 
+     Test Lead ---Ensures the overall success of the test cycles. He/she will coordinate weekly meetings and will communicate the testing status to the project team.
+ 	 
+     Testers ---Responsible for performing the actual system testing.
+
+10. Deliverable
+Deliverable							Responsibility								Completion Date
+Develop Test cases 					Testers	
+Test Case Review					Developers of the agile team,Product Owner	
+Develop Automated test suites		Testers	
+Requirements Validation Matrix		Test Lead	
+Execute manual and automated tests	Tester of the team	
+Complete Defect Reports				Everyone testing the product				On-going
+Document and communicate test, 
+status/coverage						Tester for the team	
+Execute Beta tests					All users referring to analyst's	
+Document and communicate,
+Beta test status/coverage	 		Product Owner or Tester for the team	
+Execute User Acceptance tests	 	Producer owner	
+Document and communicate Acceptance,
+test status/coverage	 			Product Owner	
+Final Test Summary Report			Tester 	
+
+11. Exit Criteria
+If any defects are found which seriously impact the test progress, the QA manager may choose to
+Suspend testing. Criteria that will justify test suspension are:
+	•	Hardware/software is not available at the times indicated in the project schedule.
+	•	Source code contains one or more critical defects, which seriously prevents or limits testing progress.
+	•	Assigned test resources are not available when needed by the test team.
+
+12. Resumption Criteria
+If testing is suspended, resumption will only occur when the problem(s) that caused the suspension has been resolved. When a critical defect is the cause of the suspension, the “FIX” must be verified by the test department before testing is resumed.
+
+13. Dependencies
+
+	13.1 Personnel Dependencies 
+	The test team requires experience testers to develop, perform and validate tests.
+	13.2 Software Dependencies 
+	The source code must be unit tested and provided within the scheduled time outlined in the Project Schedule but being in an agile environment work gets given to the testers as its completed in the sprint.
+
+14. Risks
+	14.1 Schedule
+	The schedule for each phase is very aggressive and could affect testing. A slip in the schedule in one of the other phases could result in a subsequent slip in the test phase. Close project management is crucial to meeting the forecasted completion date.
+	14.2 Management
+	Management support is required so when the project falls behind, the test schedule does not get squeezed to make up for the delay. Management can reduce the risk of delays by supporting the test team throughout the testing phase and assigning people to this project with the required skills set.
+	14.3 Requirements
+	The test plan and test schedule are based on the current Requirements Document. Any changes to the requirements could affect the test schedule and will need to be approved by the CCB.
+	Scope creep or misunderstandings between the PO and Dev team leads, hence why this needs to be ironed out before testing can commence. 
+
+15. Tools
+Selenium will be use to conduct front end web automation testing, 
+Junit will be used for load testing and performance testing. 
+
+16. Documentation
+The following documentation will be available at the end of the test phase:
+	•	Test Plan
+	•	Test Cases
+	•	Test Case review
+	•	Requirements Validation Matrix
+	•	Defect reports
+	•	Final Test Summary Report
+
+17. Approvals
+Name (Print)		Signature		Date
+Test manager		test			26/08/2019
+Product owner		test			26/08/2019
+developer			test			26/08/2019
+		
+
