@@ -50,6 +50,6 @@
 
 ## Assessment answers:
 1. <https://github.com/shamras/AssesmentEntersekt/blob/master/Test%20Plan.txt>
-2. <https://github.com/shamras/AssesmentEntersekt/blob/master/Test%20cases.docx>
+2. <https://github.com/shamras/AssesmentEntersekt/blob/master/Test%20cases%20QEtodolist.docx>
 3. <Add link to test plan Markdown/Gherkin file/section from task 3>
 4. <Add link to test plan Markdown/Gherkin file/section from task 4>
